@@ -1,7 +1,7 @@
 import React from 'react';
 import './guess-form.css';
 
-export default function GuessForm extends React.Component {
+export default class GuessForm extends React.Component {
     onSubmit(event) {
         event.preventDefault();
 
